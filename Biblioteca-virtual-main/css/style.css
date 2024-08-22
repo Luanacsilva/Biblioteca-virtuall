@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mystery Quest', sans-serif;
+    background-color: #000;
+    color: #FFD28B;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_list a {
+    color: #FFD28B;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav_list a:hover {
+    color: #ffb400;
+}
+
+form {
+    display: flex;
+}
+
+input[type="search"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #FFD28B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffb400;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Galeria */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.gallery_item {
+    text-align: center;
+}
+
+.gallery_item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery_item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery_item_title {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin-top: 40px;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
