@@ -1,0 +1,22 @@
+{
+    "name": "Biblioteca BookComments",
+    "short_name": "BookComments",
+    "description": "Sua biblioteca virtual de sustos e mistérios.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#FFD28B",
+    "icons": [
+      {
+        "src": "/imagens/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/imagens/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

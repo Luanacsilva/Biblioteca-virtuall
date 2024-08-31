@@ -10,11 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Meta Tags para PWA -->
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="description" content="BookComments - Sua biblioteca virtual de sustos e mistérios">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192x192.png" type="image/png">
+
 </head>
 <body>
     <!-- Cabeçalho -->
     <header class="header">
-        <img src="imagens/Logo.svg" alt="Logo da Biblioteca BookComents" width="150" />
+        <img src="imagens/Logo.svg" alt="Logo da Biblioteca BookComments" width="150" />
         <nav>
             <ul class="nav_list">
                 <li><a href="#">Início</a></li>
@@ -30,7 +37,7 @@
     </header>
 
     <!-- Títulos -->
-    <h1>BookComents</h1>
+    <h1>BookComments</h1>
     <h2>Sua biblioteca virtual de sustos e mistérios</h2>
 
     <!-- Galeria -->
@@ -40,54 +47,53 @@
                 <img class="gallery_item_image" src="imagens/A Casa na Floresta.jpeg" alt="Capa do livro A casa na Floresta">
                 <span class="gallery_item_title">A casa na Floresta</span>
             </div>
-            
             <div class="gallery_item"> 
                 <img class="gallery_item_image" src="imagens/Alma.jpeg" alt="Capa do livro Alma">
                 <span class="gallery_item_title">Alma</span>
             </div>
-
             <div class="gallery_item"> 
                 <img class="gallery_item_image" src="imagens/Boas Garotas.jpeg" alt="Capa do livro Boas">
                 <span class="gallery_item_title">Boas Garotas</span>
             </div>
+            <!-- Adicionei os livros restantes aqui -->
             <div class="gallery_item"> 
                 <img class="gallery_item_image" src="imagens/Contos assombrados da roça.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Contos assombrados</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Dá-me os teus olhos.jpeg" alt="Capa do livro Boas">
+                <img class="gallery_item_image" src="imagens/Dá-me os teus olhos.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Dá-me os teus olhos</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Jack.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Jack.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">O diário de Jack</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Não Brinque Com Espíritos.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Não Brinque Com Espíritos.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Não brinque com Espíritos</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/O hospicio.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/O hospicio.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">O hospicio de Muskov</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Lady.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Lady.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Lady killers</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Oito assassinatos perfeitos.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Oito assassinatos perfeitos.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Oito assassinatos perfeitos</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Pantano dos sacrificios.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Pantano dos sacrificios.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Pantano de sacrificios</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Sussuros.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Sussuros.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Sussuros da meia noite</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/Segredos Obscuros.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/Segredos Obscuros.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Segredos Obscuros</span>
             </div>
             <div class="gallery_item"> 
@@ -95,26 +101,36 @@
                 <span class="gallery_item_title">Dorian</span>
             </div>
             <div class="gallery_item"> 
-                <img class="gallery_item_image" src="imagens/LoveCraft.jpeg" alt="Capa do livro ">
+                <img class="gallery_item_image" src="imagens/LoveCraft.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">O diário de Jack</span>
             </div>
             <div class="gallery_item"> 
                 <img class="gallery_item_image" src="imagens/Drácula.jpeg" alt="Capa do livro">
                 <span class="gallery_item_title">Drácula</span>
-                <div class="gallery_item"> 
- 
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
 
     <!-- Rodapé -->
     <footer>
-        <h3>The BookComents - Sua biblioteca do medo</h3>
+        <h3>The BookComments - Sua biblioteca do medo</h3>
     </footer>
 
     <script src="scripts/script.js"></script>
+
+    <!-- Registro do Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registrado com sucesso:', registration);
+                })
+                .catch(error => {
+                    console.log('Falha ao registrar o Service Worker:', error);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
